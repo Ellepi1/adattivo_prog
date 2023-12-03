@@ -11,6 +11,6 @@ class Person extends Model
     
     protected $fillable = [
         'nome',
-        'data di nascita'
+        'data_di_nascita'
     ];
 }

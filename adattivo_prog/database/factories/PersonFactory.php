@@ -21,7 +21,7 @@ class PersonFactory extends Factory
     {
         return [
             'nome' => $this->faker->name(),
- 	        'data di nascita' => $this->faker->date(),
+ 	        'data_di_nascita' => $this->faker->date(),
         ];
     }
 }
